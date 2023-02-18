@@ -14,11 +14,12 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <section class="first-section">
+    <section>
+      <div class="container">
       <header class="page-header">
-        <ul class="unstyled-list">
+        <ul class="header-nav-buttons unstyled-list">
           <li>
-            <a href="index.html" class="logo link"
+            <a href="portfolio.html" class="logo link"
               ><span class="logo-highlight">Web</span>Studio</a
             >
           </li>
@@ -32,7 +33,7 @@
           <li>
             <a
               class="main-navigation-link link"
-              href="https://rknrolla.github.io/goit-markup-hw-01/"
+              href="portfolio.html"
               >Portfolio</a
             >
           </li>
@@ -44,27 +45,30 @@
             >
           </li>
         </ul>
-        <a class="contact-navigation-link link" href="mailto:info@devstudio.com"
+        <ul class="contacts-header">
+         <li>
+        <a class="contact-navigation-link space-left link" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
-        >
-        <a class="contact-navigation-link link" href="tel:+1 212-772-4150"
+        ></li> 
+        <li><a class="contact-navigation-link link" href="tel:+1 212-772-4150"
           >+1 212-772-4150</a
-        >
+        ></li>
+      </ul>
       </header>
+      </div>
     </section>
     <section>
+      <div class="container">
       <nav>
-        <ul>
+        <div class="button-list-portfolio">
           <button type="button" class="button-portfolio">All</button>
           <button type="button" class="button-portfolio">Web-sites</button>
           <button type="button" class="button-portfolio">Apps</button>
           <button type="button" class="button-portfolio">Design</button>
           <button type="button" class="button-portfolio">Marketing</button>
-        </ul>
-      </nav>
-    </section>
-    <section>
-      <ul>
+        </div>
+       </nav>
+       <ul class="product-list unstyled-list">
         <li>
           <img
             src="images/img.png"
@@ -156,32 +160,31 @@
           <p>Apps</p>
         </li>
       </ul>
+    </div>
     </section>
   </body>
   <footer class="footer-bg">
-    <address>
-      <ul class="unstyled-list">
-        <li>
-          <a class="logo-highlight link logo-footer" href="index.html"
-            >Web<span class="studio">Studio</span></a
-          >
-        </li>
-        <li>
-          <a class="adress-footer-map link" href="695 Park Ave, NY 10065, USA"
-            >695 Park Ave, NY 10065, USA</a
-          >
-        </li>
-        <li>
-          <a class="adress-footer link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="adress-footer link" href="tel:+1 212-772-4150"
-            >+1 212-772-4150</a
-          >
-        </li>
-      </ul>
-    </address>
-  </footer>
+    <ul class="unstyled-list footer-content">
+      <li class="logo-speish">
+        <a class="logo-highlight link logo-footer" href="index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+      </li>
+      <li>
+        <a class="adress-footer-map link" href="695 Park Ave, NY 10065, USA"
+          >695 Park Ave, NY 10065, USA</a
+        >
+      </li>
+      <li>
+        <a class="adress-footer link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+      </li>
+      <li>
+        <a class="adress-footer link" href="tel:+1 212-772-4150"
+          >+1 212-772-4150</a
+        >
+      </li>
+    </ul>
+</footer>
 </html>
