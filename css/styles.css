@@ -4,15 +4,30 @@ body {
   letter-spacing: 0.03em;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+
 :root {
   --hover-color: #2196f3;
   --white-color: #ffffff;
   --dark-background-color: #2f303a;
 }
 
+.container {
+  width: 1200px;
+}
+
 /* Header styiling */
 .logo {
   color: #212121;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+  font-weight: 700;
+  font-family: "Raleway";
+  padding-right: 93px;
 }
 
 .logo-highlight {
@@ -21,10 +36,28 @@ body {
 
 .unstyled-list {
   list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .page-header {
   color: var(--white-color);
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-between;
+
+}
+.page-header:nth-child(5) {
+  margin-left: 300px;
+  margin-right: 25px;
 }
 
 .link {
@@ -37,6 +70,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-navigation-link {
@@ -45,6 +81,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
 }
 
 .main-navigation-link:hover,
