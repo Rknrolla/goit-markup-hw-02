@@ -42,6 +42,9 @@ body {
   flex-wrap: wrap;
   display: flex;
 }
+.header-nav-buttons {
+  width: 50%;
+}
 
 .page-header {
   color: var(--white-color);
@@ -58,6 +61,12 @@ body {
 .page-header:nth-child(5) {
   margin-left: 300px;
   margin-right: 25px;
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: end;
+  width: 50%;
 }
 
 .link {
